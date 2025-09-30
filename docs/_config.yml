@@ -23,3 +23,9 @@ execute:
         - notebooks/*.ipynb
 
 only_build_toc_files: true
+
+#######################################################################################
+# Sphinx settings
+sphinx:
+  config:
+    html_extra_path: ['docs/extra_html']
